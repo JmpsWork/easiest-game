@@ -1,0 +1,10 @@
+{
+  "name": "Tutorial",
+  "difficulty": -1,
+  "required_score": 0,
+  "levels": [
+    "tutorial-1",
+    "tutorial-2",
+    "tutorial-3"
+  ]
+}

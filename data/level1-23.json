@@ -1,0 +1,442 @@
+{
+  "blurb": "empty",
+  "next_level": false,
+  "centered": true,
+  "spawnx": 200,
+  "spawny": 450,
+  "tiles": [
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "end_zone"
+    }, {
+      "template": "end_zone"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }],
+    [{
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "end_zone"
+    }, {
+      "template": "end_zone"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "safe_zone", "newx": 200, "newy": 450
+    }, {
+      "template": "safe_zone", "newx": 200, "newy": 450
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "safe_zone", "newx": 200, "newy": 450
+    }, {
+      "template": "safe_zone", "newx": 200, "newy": 450
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }]
+  ],
+  "walls": [{
+    "sx": 150,
+    "sy": 0,
+    "ex": 250,
+    "ey": 0
+  }, {
+    "sx": 250,
+    "sy": 6,
+    "ex": 250,
+    "ey": 44
+  }, {
+    "sx": 250,
+    "sy": 50,
+    "ex": 350,
+    "ey": 50
+  }, {
+    "sx": 350,
+    "sy": 56,
+    "ex": 350,
+    "ey": 144
+  }, {
+    "sx": 350,
+    "sy": 150,
+    "ex": 400,
+    "ey": 150
+  }, {
+    "sx": 400,
+    "sy": 156,
+    "ex": 400,
+    "ey": 244
+  }, {
+    "sx": 350,
+    "sy": 250,
+    "ex": 400,
+    "ey": 250
+  }, {
+    "sx": 250,
+    "sy": 350,
+    "ex": 350,
+    "ey": 350
+  }, {
+    "sx": 150,
+    "sy": 500,
+    "ex": 250,
+    "ey": 500
+  }, {
+    "sx": 50,
+    "sy": 350,
+    "ex": 150,
+    "ey": 350
+  }, {
+    "sx": 0,
+    "sy": 250,
+    "ex": 50,
+    "ey": 250
+  }, {
+    "sx": 0,
+    "sy": 150,
+    "ex": 50,
+    "ey": 150
+  }, {
+    "sx": 50,
+    "sy": 50,
+    "ex": 150,
+    "ey": 50
+  }, {
+    "sx": 150,
+    "sy": 6,
+    "ex": 150,
+    "ey": 44
+  }, {
+    "sx": 100,
+    "sy": 100,
+    "ex": 200,
+    "ey": 100
+  }, {
+    "sx": 250,
+    "sy": 100,
+    "ex": 300,
+    "ey": 100
+  }, {
+    "sx": 250,
+    "sy": 106,
+    "ex": 250,
+    "ey": 244
+  }, {
+    "sx": 150,
+    "sy": 250,
+    "ex": 250,
+    "ey": 250
+  }, {
+    "sx": 150,
+    "sy": 156,
+    "ex": 150,
+    "ey": 244
+  }, {
+    "sx": 150,
+    "sy": 150,
+    "ex": 200,
+    "ey": 150
+  }, {
+    "sx": 200,
+    "sy": 106,
+    "ex": 200,
+    "ey": 144
+  }, {
+    "sx": 100,
+    "sy": 106,
+    "ex": 100,
+    "ey": 294
+  }, {
+    "sx": 100,
+    "sy": 300,
+    "ex": 300,
+    "ey": 300
+  }, {
+    "sx": 300,
+    "sy": 106,
+    "ex": 300,
+    "ey": 294
+  }, {
+    "sx": 350,
+    "sy": 256,
+    "ex": 350,
+    "ey": 344
+  }, {
+    "sx": 250,
+    "sy": 356,
+    "ex": 250,
+    "ey": 494
+  }, {
+    "sx": 150,
+    "sy": 356,
+    "ex": 150,
+    "ey": 494
+  }, {
+    "sx": 50,
+    "sy": 256,
+    "ex": 50,
+    "ey": 344
+  }, {
+    "sx": 0,
+    "sy": 156,
+    "ex": 0,
+    "ey": 244
+  }, {
+    "sx": 50,
+    "sy": 56,
+    "ex": 50,
+    "ey": 144
+  }],
+  "enemies": [{
+    "x": 75,
+    "y": 325,
+    "speed": 3,
+    "path": [
+      [
+        75,
+        325
+      ],
+      [
+        325,
+        325
+      ],
+      [
+        325,
+        75
+      ],
+      [
+        75,
+        75
+      ]
+    ]
+  }, {
+    "x": 75,
+    "y": 275,
+    "speed": 3,
+    "path": [
+      [
+        75,
+        325
+      ],
+      [
+        325,
+        325
+      ],
+      [
+        325,
+        75
+      ],
+      [
+        75,
+        75
+      ]
+    ]
+  }, {
+    "x": 75,
+    "y": 225,
+    "speed": 3,
+    "path": [
+      [
+        75,
+        325
+      ],
+      [
+        325,
+        325
+      ],
+      [
+        325,
+        75
+      ],
+      [
+        75,
+        75
+      ]
+    ]
+  }, {
+    "x": 75,
+    "y": 175,
+    "speed": 3,
+    "path": [
+      [
+        75,
+        325
+      ],
+      [
+        325,
+        325
+      ],
+      [
+        325,
+        75
+      ],
+      [
+        75,
+        75
+      ]
+    ]
+  }, {
+    "x": 75,
+    "y": 125,
+    "speed": 3,
+    "path": [
+      [
+        75,
+        325
+      ],
+      [
+        325,
+        325
+      ],
+      [
+        325,
+        75
+      ],
+      [
+        75,
+        75
+      ]
+    ]
+  }
+  ]
+}

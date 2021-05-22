@@ -1,0 +1,112 @@
+{
+  "blurb": "Things only get harder from here...",
+  "tutorial_text": "Warps can teleport you to another place!",
+
+  "centered": true,
+  "next_level": false,
+
+  "spawnx": 50,
+  "spawny": 50,
+
+  "tiles": [
+    [{"template": "safe_zone"},
+    {"template": "safe_zone"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"}],
+
+    [{"template": "safe_zone"},
+    {"template": "safe_zone"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"}],
+
+    [{"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"}],
+
+    [{"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"}],
+
+    [{"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"}],
+
+    [{"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"}],
+
+    [{"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "end_zone", "newx": 350, "newy": 350},
+    {"template": "end_zone", "newx": 350, "newy": 350}],
+
+    [{"template": "base_red", "warp": true, "warpx": 225, "warpy": 25},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "base_red"},
+    {"template": "base_white"},
+    {"template": "end_zone", "newx": 350, "newy": 350},
+    {"template": "end_zone", "newx": 350, "newy": 350}]
+  ],
+
+  "walls": [
+    {
+      "sx": 0,
+      "sy": 0,
+      "ex": 400,
+      "ey": 0
+    },
+    {
+      "sx": 0,
+      "sy": 0,
+      "ex": 0,
+      "ey": 400
+    },
+    {
+      "sx": 400,
+      "sy": 400,
+      "ex": 0,
+      "ey": 400
+    },
+    {
+      "sx": 400,
+      "sy": 406,
+      "ex": 400,
+      "ey": 0
+    },
+    {"sx": 200, "sy": 0, "ex": 200, "ey": 400}
+  ]
+}

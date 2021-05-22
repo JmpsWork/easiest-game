@@ -1,0 +1,12 @@
+{
+  "name": "Amateur",
+  "difficulty": 1,
+  "required_score": 0,
+  "levels": [
+    "level2-1",
+    "level2-2",
+    "level2-3",
+    "level2-4",
+    "level2-5"
+  ]
+}

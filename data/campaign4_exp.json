@@ -1,0 +1,9 @@
+{
+  "name": "Extreme",
+  "difficulty": 3,
+  "required_score": 0,
+  "levels": [
+    "level4-1",
+    "level4-2"
+  ]
+}

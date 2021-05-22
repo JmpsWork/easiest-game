@@ -1,0 +1,375 @@
+{
+  "blurb": "empty",
+  "next_level": false,
+  "centered": true,
+  "spawnx": 50,
+  "spawny": 50,
+  "tiles": [
+    [{
+      "template": "safe_zone", "newx": 50, "newy": 50
+    }, {
+      "template": "safe_zone", "newx": 50, "newy": 50
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }],
+    [{
+      "template": "safe_zone", "newx": 50, "newy": 50
+    }, {
+      "template": "safe_zone", "newx": 50, "newy": 50
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }],
+    [{
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }],
+    [{
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }],
+    [{
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "end_zone"
+    }, {
+      "template": "end_zone"
+    }],
+    [{
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "end_zone"
+    }, {
+      "template": "end_zone"
+    }]
+  ],
+  "walls": [{
+    "sx": 0,
+    "sy": 0,
+    "ex": 300,
+    "ey": 0
+  }, {
+    "sx": 300,
+    "sy": 6,
+    "ex": 300,
+    "ey": 94
+  }, {
+    "sx": 300,
+    "sy": 100,
+    "ex": 350,
+    "ey": 100
+  }, {
+    "sx": 350,
+    "sy": 6,
+    "ex": 350,
+    "ey": 94
+  }, {
+    "sx": 350,
+    "sy": 0,
+    "ex": 650,
+    "ey": 0
+  }, {
+    "sx": 650,
+    "sy": 6,
+    "ex": 650,
+    "ey": 294
+  }, {
+    "sx": 350,
+    "sy": 300,
+    "ex": 650,
+    "ey": 300
+  }, {
+    "sx": 350,
+    "sy": 206,
+    "ex": 350,
+    "ey": 294
+  }, {
+    "sx": 300,
+    "sy": 200,
+    "ex": 350,
+    "ey": 200
+  }, {
+    "sx": 300,
+    "sy": 206,
+    "ex": 300,
+    "ey": 294
+  }, {
+    "sx": 0,
+    "sy": 300,
+    "ex": 300,
+    "ey": 300
+  }, {
+    "sx": 0,
+    "sy": 6,
+    "ex": 0,
+    "ey": 294
+  }, {
+    "sx": 325,
+    "sy": 106,
+    "ex": 325,
+    "ey": 194,
+    "color": [200, 20, 20],
+    "id": 1
+  }],
+  "enemies": [{
+    "x": 25,
+    "y": 125,
+    "speed": 3,
+    "path": [
+      [
+        25,
+        125
+      ],
+      [
+        75,
+        125
+      ],
+      [
+        75,
+        175
+      ],
+      [
+        25,
+        175
+      ]
+    ]
+  }, {
+    "x": 125,
+    "y": 125,
+    "speed": 3,
+    "path": [
+      [
+        125,
+        125
+      ],
+      [
+        175,
+        125
+      ],
+      [
+        175,
+        175
+      ],
+      [
+        125,
+        175
+      ]
+    ]
+  }, {
+    "x": 225,
+    "y": 25,
+    "speed": 4,
+    "path": [
+      [
+        225,
+        25
+      ],
+      [
+        275,
+        25
+      ],
+      [
+        275,
+        275
+      ],
+      [
+        225,
+        275
+      ]
+    ]
+  }, {
+    "x": 425,
+    "y": 275,
+    "speed": 4,
+    "path": [
+      [
+        425,
+        275
+      ],
+      [
+        375,
+        275
+      ],
+      [
+        375,
+        25
+      ],
+      [
+        425,
+        25
+      ]
+    ]
+  }, {
+    "x": 475,
+    "y": 275,
+    "speed": 3,
+    "path": [
+      [
+        475,
+        275
+      ],
+      [
+        475,
+        125
+      ],
+      [
+        625,
+        125
+      ],
+      [
+        475,
+        125
+      ]
+    ]
+  }, {
+    "x": 625,
+    "y": 175,
+    "speed": 3,
+    "path": [
+      [
+        625,
+        175
+      ],
+      [
+        525,
+        175
+      ],
+      [
+        525,
+        275
+      ],
+      [
+        525,
+        175
+      ]
+    ]
+  }],
+  "keys": [
+    {"x": 50, "y": 275, "color":  [200, 20, 20], "id": 1}
+  ]
+}

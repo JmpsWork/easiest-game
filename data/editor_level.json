@@ -1,0 +1,119 @@
+{
+  "blurb": "empty",
+  "next_level": false,
+  "centered": true,
+  "spawnx": 100,
+  "spawny": 100,
+  "tiles": [
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }]
+  ],
+  "walls": [{
+    "sx": 100,
+    "sy": 100,
+    "ex": 150,
+    "ey": 100
+  }, {
+    "sx": 300,
+    "sy": 106,
+    "ex": 300,
+    "ey": 294
+  }, {
+    "sx": 100,
+    "sy": 350,
+    "ex": 250,
+    "ey": 350
+  }, {
+    "sx": 300,
+    "sy": 356,
+    "ex": 300,
+    "ey": 494
+  }, {
+    "sx": 400,
+    "sy": 500,
+    "ex": 600,
+    "ey": 500
+  }, {
+    "sx": 600,
+    "sy": 306,
+    "ex": 600,
+    "ey": 444
+  }],
+  "enemies": []
+}

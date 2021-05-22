@@ -1,0 +1,121 @@
+{
+  "blurb": "Get with the rhythm",
+
+  "centered": true,
+  "next_level": "level4-2",
+
+  "spawnx": 50,
+  "spawny": 50,
+
+  "tiles": [
+    [{"template": "safe_zone"},
+    {"template": "safe_zone"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"}],
+
+    [{"template": "safe_zone"},
+    {"template": "safe_zone"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"}],
+
+    [{"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"}],
+
+    [{"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"}],
+
+    [{"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"}],
+
+    [{"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"}],
+
+    [{"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "end_zone", "newx": 350, "newy": 350},
+    {"template": "end_zone", "newx": 350, "newy": 350}],
+
+    [{"template": "base_purple", "warp": true, "warpx": 225, "warpy": 25},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "base_purple"},
+    {"template": "base_white"},
+    {"template": "end_zone", "newx": 350, "newy": 350},
+    {"template": "end_zone", "newx": 350, "newy": 350}]
+  ],
+
+  "walls": [
+    {
+      "sx": 0,
+      "sy": 0,
+      "ex": 400,
+      "ey": 0
+    },
+    {
+      "sx": 0,
+      "sy": 0,
+      "ex": 0,
+      "ey": 400
+    },
+    {
+      "sx": 400,
+      "sy": 400,
+      "ex": 0,
+      "ey": 400
+    },
+    {
+      "sx": 400,
+      "sy": 406,
+      "ex": 400,
+      "ey": 0
+    }
+  ],
+  "enemies": [
+    {"x": 25, "y": 125, "speed": 2, "path": [[25, 125], [75, 125], [75, 175], [25, 175]]},
+    {"x": 125, "y": 125, "speed": 2, "path": [[125, 125], [175, 125], [175, 175], [125, 175]]},
+    {"x": 225, "y": 125, "speed": 2, "path": [[225, 125], [275, 125], [275, 175], [225, 175]]},
+    {"x": 325, "y": 125, "speed": 2, "path": [[325, 125], [375, 125], [375, 175], [325, 175]]},
+
+    {"x": 25, "y": 225, "speed": 2, "path": [[25, 225], [75, 225], [75, 275], [25, 275]]},
+    {"x": 125, "y": 225, "speed": 2, "path": [[125, 225], [175, 225], [175, 275], [125, 275]]},
+    {"x": 225, "y": 225, "speed": 2, "path": [[225, 225], [275, 225], [275, 275], [225, 275]]},
+    {"x": 325, "y": 225, "speed": 2, "path": [[325, 225], [375, 225], [375, 275], [325, 275]]}
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "blurb": "Hyper velocity",
+  "next_level": false,
+  "centered": true,
+  "spawnx": 50,
+  "spawny": 50,
+  "tiles": [
+    [{
+      "template": "safe_zone"
+    }, {
+      "template": "safe_zone"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "end_zone"
+    }, {
+      "template": "end_zone"
+    }],
+    [{
+      "template": "safe_zone"
+    }, {
+      "template": "safe_zone"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_yellow"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "end_zone"
+    }, {
+      "template": "end_zone"
+    }]
+  ],
+  "walls": [{
+    "sx": 0,
+    "sy": 0,
+    "ex": 1050,
+    "ey": 0
+  }, {
+    "sx": 1050,
+    "sy": 6,
+    "ex": 1050,
+    "ey": 94
+  }, {
+    "sx": 0,
+    "sy": 100,
+    "ex": 1050,
+    "ey": 100
+  }, {
+    "sx": 0,
+    "sy": 6,
+    "ex": 0,
+    "ey": 94
+  }],
+  "enemies": [{
+    "x": 125,
+    "y": 75,
+    "speed": 4,
+    "path": [
+      [
+        125,
+        75
+      ],
+      [
+        225,
+        25
+      ],
+      [
+        325,
+        75
+      ],
+      [
+        425,
+        25
+      ],
+      [
+        525,
+        75
+      ],
+      [
+        625,
+        25
+      ],
+      [
+        725,
+        75
+      ],
+      [
+        825,
+        25
+      ],
+      [
+        925,
+        75
+      ],
+      [
+        825,
+        25
+      ],
+      [
+        725,
+        75
+      ],
+      [
+        625,
+        25
+      ],
+      [
+        525,
+        75
+      ],
+      [
+        425,
+        25
+      ],
+      [
+        325,
+        75
+      ],
+      [
+        225,
+        25
+      ]
+    ]
+  }]
+}

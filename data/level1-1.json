@@ -1,0 +1,118 @@
+{
+  "name": "1-1",
+  "blurb": "This one is easy",
+  "tutorial_text": "Green areas are checkpoints!",
+
+  "centered": true,
+  "next_level": "level1-2",
+
+  "spawnx": 30,
+  "spawny": 30,
+
+  "tiles": [
+    [{"template": "safe_zone"},
+    {"template": "safe_zone"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"}],
+
+    [{"template": "safe_zone"},
+    {"template": "safe_zone"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"}],
+
+    [{"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"}],
+
+    [{"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"}],
+
+    [{"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"}],
+
+    [{"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"}],
+
+    [{"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "end_zone", "newx": 350, "newy": 350},
+    {"template": "end_zone", "newx": 350, "newy": 350}],
+
+    [{"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "end_zone", "newx": 350, "newy": 350},
+    {"template": "end_zone", "newx": 350, "newy": 350}]
+  ],
+
+  "walls": [
+    {
+      "sx": 0,
+      "sy": 0,
+      "ex": 400,
+      "ey": 0,
+      "color": [0, 0, 0]
+    },
+    {
+      "sx": 0,
+      "sy": 0,
+      "ex": 0,
+      "ey": 400
+    },
+    {
+      "sx": 400,
+      "sy": 400,
+      "ex": 0,
+      "ey": 400
+    },
+    {
+      "sx": 400,
+      "sy": 406,
+      "ex": 400,
+      "ey": 0
+    }
+  ],
+  "enemies": [
+    {"x": 175, "y": 25, "speed": 3.5, "path": [[175, 25], [175, 375]]},
+    {"x": 225, "y": 375, "speed": 3.5, "path": [[225, 375], [225, 25]]},
+    {"x": 25, "y": 200, "speed": 3, "path": [[25, 200], [375, 200]]}
+  ]
+}

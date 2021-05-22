@@ -1,0 +1,150 @@
+{
+  "name": "1-4: Fortress",
+  "blurb": "H",
+
+  "centered": true,
+  "next_level": "level1-5",
+
+  "spawnx": 225,
+  "spawny": 225,
+
+  "tiles": [
+    [{"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"}],
+
+    [{"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"}],
+
+    [{"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "base_white"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "base_blue"},
+    {"template": "base_white"}],
+
+    [{"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "empty"},
+    {"template": "end_zone", "newx": 225, "newy": 225},
+    {"template": "end_zone", "newx": 225, "newy": 225},
+    {"template": "end_zone", "newx": 225, "newy": 225},
+    {"template": "empty"},
+    {"template": "base_white"},
+    {"template": "base_blue"}],
+
+    [{"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "end_zone", "newx": 225, "newy": 225},
+    {"template": "end_zone", "newx": 225, "newy": 225},
+    {"template": "end_zone", "newx": 225, "newy": 225},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"}],
+
+    [{"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "empty"},
+    {"template": "end_zone", "newx": 225, "newy": 225},
+    {"template": "end_zone", "newx": 225, "newy": 225},
+    {"template": "end_zone", "newx": 225, "newy": 225},
+    {"template": "empty"},
+    {"template": "base_white"},
+    {"template": "base_blue"}],
+
+    [{"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "base_white"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "base_blue"},
+    {"template": "base_white"}],
+
+    [{"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"}],
+
+    [{"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"}]
+  ],
+
+  "walls": [
+    {"sx": 0, "sy": 0, "ex": 450, "ey": 0},
+    {"sx": 450, "sy": 0, "ex": 450, "ey": 450},
+    {"sx": 0, "sy": 450, "ex": 450, "ey": 450},
+    {"sx": 0, "sy": 0, "ex": 0, "ey": 450},
+
+    {"sx": 100, "sy": 100, "ex": 200, "ey": 100},
+    {"sx": 200, "sy": 106, "ex": 200, "ey": 144},
+    {"sx": 150, "sy": 150, "ex": 200, "ey": 150},
+    {"sx": 150, "sy": 150, "ex": 150, "ey": 194},
+    {"sx": 100, "sy": 200, "ex": 150, "ey": 200},
+    {"sx": 100, "sy": 100, "ex": 100, "ey": 200},
+
+    {"sx": 250, "sy": 100, "ex": 350, "ey": 100},
+    {"sx": 350, "sy": 100, "ex": 350, "ey": 194},
+    {"sx": 300, "sy": 200, "ex": 350, "ey": 200},
+    {"sx": 300, "sy": 150, "ex": 300, "ey": 200},
+    {"sx": 250, "sy": 150, "ex": 300, "ey": 150},
+    {"sx": 250, "sy": 100, "ex": 250, "ey": 150},
+
+    {"sx": 100, "sy": 250, "ex": 100, "ey": 344},
+    {"sx": 100, "sy": 350, "ex": 200, "ey": 350},
+    {"sx": 200, "sy": 306, "ex": 200, "ey": 350},
+    {"sx": 150, "sy": 300, "ex": 200, "ey": 300},
+    {"sx": 150, "sy": 256, "ex": 150, "ey": 300},
+    {"sx": 100, "sy": 250, "ex": 150, "ey": 250},
+
+    {"sx": 250, "sy": 350, "ex": 350, "ey": 350},
+    {"sx": 350, "sy": 350, "ex": 350, "ey": 250},
+    {"sx": 300, "sy": 250, "ex": 350, "ey": 250},
+    {"sx": 300, "sy": 250, "ex": 300, "ey": 300},
+    {"sx": 300, "sy": 300, "ex": 250, "ey": 300},
+    {"sx": 250, "sy": 300, "ex": 250, "ey": 350}
+  ],
+
+  "coins": [
+    {"x": 50, "y": 50},
+    {"x": 400, "y": 50},
+    {"x": 400, "y": 400},
+    {"x": 50, "y": 400}
+  ],
+
+  "enemies": [
+    {"x": 75, "y": 75, "speed": 5, "path":[[75, 75], [75, 375], [375, 375], [375, 75]]},
+    {"x": 25, "y": 25, "speed": 2.5, "path":[[25, 25], [425, 25], [425, 425], [25, 425]]},
+    {"x": 425, "y": 425, "speed": 2.5, "path":[[425, 425], [25, 425], [25, 25], [425, 25]]}
+  ]
+}

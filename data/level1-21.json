@@ -1,0 +1,380 @@
+{
+  "blurb": "empty",
+  "next_level": "level1-22",
+  "centered": true,
+  "spawnx": 250,
+  "spawny": 250,
+  "tiles": [
+    [{
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }],
+    [{
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }],
+    [{
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }],
+    [{
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "end_zone", "newx": 250, "newy": 250
+    }, {
+      "template": "end_zone", "newx": 250, "newy": 250
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "end_zone", "newx": 250, "newy": 250
+    }, {
+      "template": "end_zone", "newx": 250, "newy": 250
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }],
+    [{
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }],
+    [{
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }],
+    [{
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }]
+  ],
+  "walls": [{
+    "sx": 0,
+    "sy": 0,
+    "ex": 500,
+    "ey": 0
+  }, {
+    "sx": 500,
+    "sy": 6,
+    "ex": 500,
+    "ey": 194
+  }, {
+    "sx": 300,
+    "sy": 200,
+    "ex": 500,
+    "ey": 200
+  }, {
+    "sx": 300,
+    "sy": 300,
+    "ex": 500,
+    "ey": 300
+  }, {
+    "sx": 0,
+    "sy": 500,
+    "ex": 500,
+    "ey": 500
+  }, {
+    "sx": 0,
+    "sy": 300,
+    "ex": 200,
+    "ey": 300
+  }, {
+    "sx": 0,
+    "sy": 200,
+    "ex": 200,
+    "ey": 200
+  }, {
+    "sx": 200,
+    "sy": 206,
+    "ex": 200,
+    "ey": 294
+  }, {
+    "sx": 300,
+    "sy": 206,
+    "ex": 300,
+    "ey": 294
+  }, {
+    "sx": 0,
+    "sy": 6,
+    "ex": 0,
+    "ey": 194
+  }, {
+    "sx": 0,
+    "sy": 306,
+    "ex": 0,
+    "ey": 494
+  }, {
+    "sx": 500,
+    "sy": 306,
+    "ex": 500,
+    "ey": 494
+  }],
+  "enemies": [{
+    "x": 223.0,
+    "y": 125.0,
+    "speed": 3,
+    "path": [
+      [
+        25,
+        175
+      ],
+      [
+        475,
+        175
+      ],
+      [
+        475,
+        125
+      ],
+      [
+        25,
+        125
+      ]
+    ]
+  }, {
+    "x": 277.0,
+    "y": 75.0,
+    "speed": 3,
+    "path": [
+      [
+        475,
+        25
+      ],
+      [
+        25,
+        25
+      ],
+      [
+        25,
+        75
+      ],
+      [
+        475,
+        75
+      ]
+    ]
+  }, {
+    "x": 277.0,
+    "y": 375.0,
+    "speed": 3,
+    "path": [
+      [
+        475,
+        325
+      ],
+      [
+        25,
+        325
+      ],
+      [
+        25,
+        375
+      ],
+      [
+        475,
+        375
+      ]
+    ]
+  }, {
+    "x": 223.0,
+    "y": 425.0,
+    "speed": 3,
+    "path": [
+      [
+        25,
+        475
+      ],
+      [
+        475,
+        475
+      ],
+      [
+        475,
+        425
+      ],
+      [
+        25,
+        425
+      ]
+    ]
+  }],
+  "coins": [
+    {"x": 50, "y": 50},
+    {"x": 50, "y": 150},
+    {"x": 450, "y": 50},
+    {"x": 450, "y": 150},
+
+    {"x": 50, "y": 350},
+    {"x": 50, "y": 450},
+    {"x": 450, "y": 350},
+    {"x": 450, "y": 450}
+  ]
+}

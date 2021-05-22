@@ -1,0 +1,118 @@
+{
+  "blurb": "A then B then C",
+  "tutorial_text": "Keys unlock their colored walls.",
+
+  "centered": true,
+  "next_level": "level2-2",
+
+  "spawnx": 50,
+  "spawny": 50,
+
+  "tiles": [
+    [{"template": "safe_zone"},
+    {"template": "safe_zone"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"}],
+
+    [{"template": "safe_zone"},
+    {"template": "safe_zone"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"}],
+
+    [{"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"}],
+
+    [{"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"}],
+
+    [{"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"}],
+
+    [{"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"}],
+
+    [{"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "end_zone", "newx": 350, "newy": 350},
+    {"template": "end_zone", "newx": 350, "newy": 350}],
+
+    [{"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "base_yellow"},
+    {"template": "base_white"},
+    {"template": "end_zone", "newx": 350, "newy": 350},
+    {"template": "end_zone", "newx": 350, "newy": 350}]
+  ],
+
+  "walls": [
+    {
+      "sx": 0,
+      "sy": 0,
+      "ex": 400,
+      "ey": 0
+    },
+    {
+      "sx": 0,
+      "sy": 0,
+      "ex": 0,
+      "ey": 400
+    },
+    {
+      "sx": 400,
+      "sy": 400,
+      "ex": 0,
+      "ey": 400
+    },
+    {
+      "sx": 400,
+      "sy": 406,
+      "ex": 400,
+      "ey": 0
+    },
+    {"sx": 6, "sy": 200, "ex": 194, "ey": 200, "id": 1, "color": [220, 160, 20]},
+    {"sx": 200, "sy": 200, "ex": 394, "ey": 200, "id": 2, "color": [40, 220, 40]},
+    {"sx": 200, "sy": 200, "ex": 200, "ey": 394, "id": 2, "color": [40, 220, 40]}
+  ],
+  "keys": [
+    {"x": 300, "y": 100, "id": 1, "color": [220, 160, 20]},
+    {"x": 100, "y": 300, "id": 2, "color": [40, 220, 40]}
+  ]
+}

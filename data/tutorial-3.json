@@ -1,0 +1,75 @@
+{
+  "name": "Tutorial",
+  "blurb": "Obstacles Course",
+  "tutorial_text": "Avoid enemies, or you'll be sent back to the start!",
+
+  "centered": true,
+  "next_level": "level1-1",
+
+  "spawnx": 50,
+  "spawny": 100,
+
+  "tiles": [
+    [{"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"}],
+
+    [{"template": "safe_zone", "newy": 100},
+    {"template": "safe_zone", "newy": 100},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "end_zone"},
+    {"template": "end_zone"}],
+
+    [{"template": "safe_zone", "newy": 100},
+    {"template": "safe_zone", "newy": 100},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "end_zone"},
+    {"template": "end_zone"}],
+
+    [{"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"}]
+  ],
+  "walls": [
+    {"sx": 0, "sy": 50, "ex": 150, "ey": 50},
+    {"sx": 150, "sy": 0, "ex": 150, "ey": 50},
+    {"sx": 150, "sy": 0, "ex": 350, "ey": 0},
+    {"sx": 350, "sy": 0, "ex": 350, "ey": 50},
+    {"sx": 350, "sy": 50, "ex": 500, "ey": 50},
+    {"sx": 500, "sy": 50, "ex": 500, "ey": 150},
+    {"sx": 350, "sy": 150, "ex": 500, "ey": 150},
+    {"sx": 350, "sy": 150, "ex": 350, "ey": 200},
+    {"sx": 350, "sy": 200, "ex": 150, "ey": 200},
+    {"sx": 150, "sy": 150, "ex": 150, "ey": 200},
+    {"sx": 0, "sy": 150, "ex": 150, "ey": 150},
+    {"sx": 0, "sy": 50, "ex": 0, "ey": 150}
+  ],
+  "enemies": [
+    {"x": 225, "y": 25, "speed": 1, "path": [[225, 25], [225, 175]]},
+    {"x": 275, "y": 175, "speed": 1, "path": [[275, 175], [275, 25]]}
+  ]
+}

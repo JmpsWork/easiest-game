@@ -1,0 +1,113 @@
+{
+  "name": "1-10: Hollow Hole",
+  "blurb": "Don't let your head spin",
+
+  "centered": true,
+  "next_level": "level1-11",
+  "tutorial_text": "Moving diagonally is faster!",
+
+  "spawnx": 150,
+  "spawny": 50,
+
+  "tiles": [
+    [{"template": "empty"},
+    {"template": "empty"},
+    {"template": "safe_zone", "newx": 150},
+    {"template": "safe_zone", "newx": 150},
+    {"template": "empty"},
+    {"template": "empty"}],
+
+    [{"template": "empty"},
+    {"template": "empty"},
+    {"template": "safe_zone", "newx": 150},
+    {"template": "safe_zone", "newx": 150},
+    {"template": "empty"},
+    {"template": "empty"}],
+
+    [{"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"}],
+
+    [{"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"}],
+
+    [{"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"}],
+
+    [{"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"}],
+
+    [{"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"}],
+
+    [{"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"}],
+
+    [{"template": "empty"},
+    {"template": "empty"},
+    {"template": "end_zone", "newx": 150, "newy": 450},
+    {"template": "end_zone", "newx": 150, "newy": 450},
+    {"template": "empty"},
+    {"template": "empty"}],
+
+    [{"template": "empty"},
+    {"template": "empty"},
+    {"template": "end_zone", "newx": 150, "newy": 450},
+    {"template": "end_zone", "newx": 150, "newy": 450},
+    {"template": "empty"},
+    {"template": "empty"}]
+  ],
+
+  "walls": [
+    {"sx": 100, "sy": 0, "ex": 200, "ey": 0},
+    {"sx": 200, "sy": 0, "ex": 200, "ey": 94},
+    {"sx": 200, "sy": 100, "ex": 300, "ey": 100},
+    {"sx": 300, "sy": 100, "ex": 300, "ey": 400},
+    {"sx": 300, "sy": 400, "ex": 200, "ey": 400},
+    {"sx": 200, "sy": 400, "ex": 200, "ey": 500},
+    {"sx": 200, "sy": 500, "ex": 100, "ey": 500},
+    {"sx": 100, "sy": 506, "ex": 100, "ey": 400},
+    {"sx": 106, "sy": 400, "ex": -6, "ey": 400},
+    {"sx": 0, "sy": 400, "ex": 0, "ey": 100},
+    {"sx": 0, "sy": 100, "ex": 100, "ey": 100},
+    {"sx": 100, "sy": 100, "ex": 100, "ey": 0}
+  ],
+  "enemies": [
+    {"x": 150, "y": 250},
+
+    {"x": 150, "y": 200, "speed": 45, "pivot": [150, 250]},
+    {"x": 150, "y": 150, "speed": 45, "pivot": [150, 250]},
+
+    {"x": 150, "y": 150, "speed": 45, "angle": 90, "pivot": [150, 250]},
+    {"x": 150, "y": 200, "speed": 45, "angle": 90, "pivot": [150, 250]},
+
+    {"x": 150, "y": 150, "speed": 45, "angle": 180, "pivot": [150, 250]},
+    {"x": 150, "y": 200, "speed": 45, "angle": 180, "pivot": [150, 250]},
+
+    {"x": 150, "y": 150, "speed": 45, "angle": 270, "pivot": [150, 250]},
+    {"x": 150, "y": 200, "speed": 45, "angle": 270, "pivot": [150, 250]}
+  ]
+}

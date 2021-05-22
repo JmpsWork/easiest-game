@@ -1,0 +1,401 @@
+{
+  "blurb": "empty",
+  "next_level": "level2-3",
+  "centered": true,
+  "spawnx": 50,
+  "spawny": 350,
+  "tiles": [
+    [
+      {
+        "template": "empty"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "empty"
+      }
+    ],
+    [
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      }
+    ],
+    [
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      }
+    ],
+    [
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      }
+    ],
+    [
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "base_yellow"
+      }
+    ],
+    [
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      },
+      {
+        "template": "empty"
+      },
+      {
+        "template": "empty"
+      },
+      {
+        "template": "empty"
+      },
+      {
+        "template": "empty"
+      },
+      {
+        "template": "base_yellow"
+      },
+      {
+        "template": "base_white"
+      }
+    ],
+    [
+      {
+        "template": "safe_zone", "newx": 50, "newy": 350
+      },
+      {
+        "template": "safe_zone", "newx": 50, "newy": 350
+      },
+      {
+        "template": "empty"
+      },
+      {
+        "template": "empty"
+      },
+      {
+        "template": "empty"
+      },
+      {
+        "template": "empty"
+      },
+      {
+        "template": "end_zone"
+      },
+      {
+        "template": "end_zone"
+      }
+    ],
+    [
+      {
+        "template": "safe_zone", "newx": 50, "newy": 350
+      },
+      {
+        "template": "safe_zone", "newx": 50, "newy": 350
+      },
+      {
+        "template": "empty"
+      },
+      {
+        "template": "empty"
+      },
+      {
+        "template": "empty"
+      },
+      {
+        "template": "empty"
+      },
+      {
+        "template": "end_zone"
+      },
+      {
+        "template": "end_zone"
+      }
+    ]
+  ],
+  "walls": [
+    {
+      "sx": 50,
+      "sy": 0,
+      "ex": 350,
+      "ey": 0
+    },
+    {
+      "sx": 350,
+      "sy": 6,
+      "ex": 350,
+      "ey": 44
+    },
+    {
+      "sx": 350,
+      "sy": 50,
+      "ex": 400,
+      "ey": 50
+    },
+    {
+      "sx": 400,
+      "sy": 56,
+      "ex": 400,
+      "ey": 394
+    },
+    {
+      "sx": 300,
+      "sy": 400,
+      "ex": 400,
+      "ey": 400
+    },
+    {
+      "sx": 300,
+      "sy": 256,
+      "ex": 300,
+      "ey": 394
+    },
+    {
+      "sx": 100,
+      "sy": 250,
+      "ex": 300,
+      "ey": 250
+    },
+    {
+      "sx": 100,
+      "sy": 256,
+      "ex": 100,
+      "ey": 394
+    },
+    {
+      "sx": 0,
+      "sy": 400,
+      "ex": 100,
+      "ey": 400
+    },
+    {
+      "sx": 0,
+      "sy": 56,
+      "ex": 0,
+      "ey": 394
+    },
+    {
+      "sx": 0,
+      "sy": 50,
+      "ex": 50,
+      "ey": 50
+    },
+    {
+      "sx": 50,
+      "sy": 6,
+      "ex": 50,
+      "ey": 44
+    }
+  ],
+  "enemies": [
+    {
+      "x": 58.0,
+      "y": 100.0,
+      "speed": 4,
+      "path": [
+        [
+          50,
+          250
+        ],
+        [
+          50,
+          100
+        ],
+        [
+          100,
+          100
+        ],
+        [
+          100,
+          50
+        ],
+        [
+          300,
+          50
+        ],
+        [
+          300,
+          100
+        ],
+        [
+          350,
+          100
+        ],
+        [
+          350,
+          250
+        ],
+        [
+          350,
+          100
+        ],
+        [
+          300,
+          100
+        ],
+        [
+          300,
+          50
+        ],
+        [
+          100,
+          50
+        ],
+        [
+          100,
+          100
+        ],
+        [
+          50,
+          100
+        ]
+      ]
+    },
+    {
+      "x": 125.0,
+      "y": 125.0,
+      "speed": 2.5,
+      "path": [
+        [
+          125,
+          125
+        ],
+        [
+          275,
+          125
+        ]
+      ]
+    },
+    {
+      "x": 275.0,
+      "y": 175.0,
+      "speed": 2.5,
+      "path": [
+        [
+          275,
+          175
+        ],
+        [
+          125,
+          175
+        ]
+      ]
+    },
+    {
+      "x": 125.0,
+      "y": 225.0,
+      "speed": 2.5,
+      "path": [
+        [
+          125,
+          225
+        ],
+        [
+          275,
+          225
+        ]
+      ]
+    }
+  ]
+}

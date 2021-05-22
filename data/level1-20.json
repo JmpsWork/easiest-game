@@ -1,0 +1,308 @@
+{
+  "blurb": "empty",
+  "next_level": "level1-21",
+  "centered": true,
+  "spawnx": 25,
+  "spawny": 25,
+  "tiles": [
+    [{
+      "template": "safe_zone", "newx": 25, "newy": 25
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }],
+    [{
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "empty"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "base_white"
+    }, {
+      "template": "base_blue"
+    }, {
+      "template": "end_zone"
+    }]
+  ],
+  "walls": [{
+    "sx": 0,
+    "sy": 0,
+    "ex": 200,
+    "ey": 0
+  }, {
+    "sx": 200,
+    "sy": 6,
+    "ex": 200,
+    "ey": 144
+  }, {
+    "sx": 200,
+    "sy": 150,
+    "ex": 300,
+    "ey": 150
+  }, {
+    "sx": 300,
+    "sy": 156,
+    "ex": 300,
+    "ey": 244
+  }, {
+    "sx": 300,
+    "sy": 250,
+    "ex": 450,
+    "ey": 250
+  }, {
+    "sx": 450,
+    "sy": 256,
+    "ex": 450,
+    "ey": 444
+  }, {
+    "sx": 250,
+    "sy": 450,
+    "ex": 450,
+    "ey": 450
+  }, {
+    "sx": 250,
+    "sy": 306,
+    "ex": 250,
+    "ey": 444
+  }, {
+    "sx": 150,
+    "sy": 300,
+    "ex": 250,
+    "ey": 300
+  }, {
+    "sx": 0,
+    "sy": 200,
+    "ex": 150,
+    "ey": 200
+  }, {
+    "sx": 150,
+    "sy": 206,
+    "ex": 150,
+    "ey": 294
+  }, {
+    "sx": 0,
+    "sy": 6,
+    "ex": 0,
+    "ey": 194
+  }],
+  "enemies": [{
+    "x": 187.0,
+    "y": 175.0,
+    "speed": 3,
+    "path": [
+      [
+        175,
+        175
+      ],
+      [
+        275,
+        175
+      ],
+      [
+        275,
+        275
+      ],
+      [
+        175,
+        275
+      ]
+    ]
+  }, {
+    "x": 75.0,
+    "y": 78.0,
+    "speed": 3,
+    "path": [
+      [
+        75,
+        175
+      ],
+      [
+        75,
+        75
+      ],
+      [
+        175,
+        75
+      ],
+      [
+        75,
+        75
+      ]
+    ]
+  }, {
+    "x": 314.0,
+    "y": 375.0,
+    "speed": 3,
+    "path": [
+      [
+        275,
+        375
+      ],
+      [
+        375,
+        375
+      ],
+      [
+        375,
+        275
+      ],
+      [
+        375,
+        375
+      ]
+    ]
+  }]
+}

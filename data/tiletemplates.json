@@ -1,0 +1,31 @@
+{
+  "empty": {
+    "nil": true
+  },
+  "base_white": {
+    "color": [220, 220, 220]
+  },
+  "base_blue": {
+    "color": [180, 180, 220]
+  },
+  "base_yellow": {
+    "color": [220, 200, 140]
+  },
+  "base_red": {
+    "color": [200, 160, 160]
+  },
+  "base_purple": {
+    "color": [220, 180, 220]
+  },
+  "end_zone": {
+    "color": [180, 220, 180],
+    "checkpoint": true,
+    "end_level": true
+  },
+  "safe_zone": {
+    "color": [180, 220, 180],
+    "checkpoint": true,
+    "newx": 50,
+    "newy": 50
+  }
+}

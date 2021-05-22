@@ -1,0 +1,76 @@
+{
+  "name": "1-5: Corridor",
+  "blurb": "Can't run forever",
+
+  "centered": true,
+  "next_level": "level1-6",
+
+  "spawnx": 25,
+  "spawny": 75,
+
+  "tiles": [
+    [{"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "base_blue"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "base_blue"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"}],
+
+    [{"template": "safe_zone", "newx": 25, "newy": 75},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "end_zone"}],
+
+    [{"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "base_white"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"},
+    {"template": "empty"}]
+  ],
+
+  "walls": [
+    {"sx": 0, "sy": 50, "ex": 150, "ey": 50},
+    {"sx": 150, "sy": 0, "ex": 150, "ey": 50},
+    {"sx": 150, "sy": 0, "ex": 200, "ey": 0},
+    {"sx": 200, "sy": 0, "ex": 200, "ey": 50},
+    {"sx": 200, "sy": 50, "ex": 450, "ey": 50},
+    {"sx": 450, "sy": 0, "ex": 450, "ey": 50},
+    {"sx": 450, "sy": 0, "ex": 500, "ey": 0},
+    {"sx": 500, "sy": 0, "ex": 500, "ey": 50},
+    {"sx": 500, "sy": 50, "ex": 650, "ey": 50},
+    {"sx": 650, "sy": 50, "ex": 650, "ey": 100},
+    {"sx": 650, "sy": 100, "ex": 350, "ey": 100},
+    {"sx": 350, "sy": 100, "ex": 350, "ey": 150},
+    {"sx": 350, "sy": 150, "ex": 300, "ey": 150},
+    {"sx": 300, "sy": 100, "ex": 300, "ey": 150},
+    {"sx": 300, "sy": 100, "ex": 0, "ey": 100},
+    {"sx": 0, "sy": 50, "ex": 0, "ey": 100}
+  ],
+  "enemies": [
+    {"x": 325, "y": 75, "speed": 4, "path":[[325, 75], [575, 75], [75, 75]]}
+  ]
+}

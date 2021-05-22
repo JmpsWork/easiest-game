@@ -1,0 +1,47 @@
+{
+  "name": "Tutorial",
+  "blurb": "W A S D  for moving around",
+  "tutorial_text": "Get from point A to point B!",
+
+  "centered": true,
+  "next_level": "tutorial-2",
+
+  "spawnx": 50,
+  "spawny": 50,
+
+  "tiles": [
+    [{"template": "safe_zone"},
+    {"template": "safe_zone", "newy": 0},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "end_zone"},
+    {"template": "end_zone"}],
+
+    [{"template": "safe_zone"},
+    {"template": "safe_zone"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "end_zone"},
+    {"template": "end_zone"}]
+  ],
+  "walls": [
+    {"sx": 0, "sy": 0, "ex": 650, "ey": 0},
+    {"sx": 0, "sy": 0, "ex": 0, "ey": 100},
+    {"sx": 650, "sy": 100, "ex": 0, "ey": 100},
+    {"sx": 650, "sy": 106, "ex": 650, "ey": 0}
+  ]
+}

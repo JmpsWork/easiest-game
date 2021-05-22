@@ -1,0 +1,102 @@
+{
+  "name": "1-2",
+  "blurb": "Don't let your head spin",
+
+  "centered": true,
+  "next_level": "level1-3",
+
+  "spawnx": 25,
+  "spawny": 125,
+
+  "tiles": [
+    [{"template": "safe_zone", "newx": 25, "newy": 125},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "end_zone", "newx": 475, "newy": 125}],
+
+    [{"template": "safe_zone", "newx": 25, "newy": 125},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "end_zone", "newx": 475, "newy": 125}],
+
+    [{"template": "safe_zone", "newx": 25, "newy": 125},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "end_zone", "newx": 475, "newy": 125}],
+
+    [{"template": "safe_zone", "newx": 25, "newy": 125},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "end_zone", "newx": 475, "newy": 125}],
+
+    [{"template": "safe_zone", "newx": 25, "newy": 125},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "base_blue"},
+    {"template": "base_white"},
+    {"template": "end_zone", "newx": 475, "newy": 125}]
+  ],
+
+  "walls": [
+    {
+      "sx": 0,
+      "sy": 0,
+      "ex": 500,
+      "ey": 0
+    },
+    {
+      "sx": 500,
+      "sy": 0,
+      "ex": 500,
+      "ey": 250
+    },
+    {
+      "sx": 500,
+      "sy": 250,
+      "ex": 0,
+      "ey": 250
+    },
+    {
+      "sx": 0,
+      "sy": 256,
+      "ex": 0,
+      "ey": 0
+    }
+  ],
+  "coins": [
+    {"x": 325, "y": 175},
+    {"x": 175, "y": 75}
+  ],
+  "enemies": [
+    {"x": 225, "y": 25, "speed": 3, "path": [[225, 25], [125, 25], [125, 125], [225, 125]]},
+    {"x": 275, "y": 225, "speed": 3, "path": [[275, 225], [375, 225], [375, 125], [275, 125]]}
+  ]
+}
